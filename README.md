@@ -2,12 +2,12 @@
 
 ### Instrucciones:
 
-    - Descarga el pdf donde encontrarás una tabla de datos sin normalizar
-    - Normaliza la tabla (se recomienda el uso de Google Sheets)
-    - Realiza un diagrama ER de Chen
-    - Realiza un diagrama de tipo patas de gallo
-    - Crea un repositorio con el Readme
-    - Inserta en el Readme la descripción del ejercicio así como los diagramas creados.
+ - Descarga el pdf donde encontrarás una tabla de datos sin normalizar
+ - Normaliza la tabla (se recomienda el uso de Google Sheets)
+ - Realiza un diagrama ER de Chen
+ - Realiza un diagrama de tipo patas de gallo
+ - Crea un repositorio con el Readme
+ - Inserta en el Readme la descripción del ejercicio así como los diagramas creados.
 
 ## Normalización paso a paso
 
@@ -29,12 +29,15 @@
 
 ### 3NF
 
-    - STUDENT (id_student PK, name_student, classroom FK→CLASSROOM)
-    - CLASROOM (id_classroom PK, classroom_description)
-    - COURSE (id_course PK, course_name)
-    - CLASSROOM_COURSE (id_classroom FK, id_course FK)
+- STUDENT (id_student PK, name_student, classroom FK→CLASSROOM)
+- CLASROOM (id_classroom PK, classroom_description)
+- COURSE (id_course PK, course_name)
+- CLASSROOM_COURSE (id_classroom FK, id_course FK)
 
+
+    
 ## Diagrama ER de Chen
+
 
 ```mermaid
 erDiagram
@@ -61,7 +64,9 @@ erDiagram
     }
 ```
 
+
 ## Diagrama UML
+
 ```mermaid
 classDiagram
     class Student {
